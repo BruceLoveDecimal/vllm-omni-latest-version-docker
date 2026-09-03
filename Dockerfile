@@ -3,7 +3,7 @@
 # runtime libraries, and the compiled serving stack. vLLM-Omni is installed
 # separately at the matching stable version from PyPI.
 ARG IMAGE_VERSION=0.28.0
-FROM --platform=$TARGETPLATFORM vllm/vllm-openai:v${IMAGE_VERSION}
+FROM vllm/vllm-openai:v${IMAGE_VERSION}
 
 ARG IMAGE_VERSION
 
