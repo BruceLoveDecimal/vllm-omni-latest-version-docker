@@ -1,7 +1,8 @@
 # vLLM-Omni stable Docker runtime
 
 This repository publishes a reproducible, user-owned image based on the
-official stable `vllm/vllm-omni:0.28.0` image.
+official stable `vllm/vllm-openai:0.28.0` image, with the matching
+`vllm-omni==0.28.0` package installed from PyPI.
 
 ## Version alignment
 
