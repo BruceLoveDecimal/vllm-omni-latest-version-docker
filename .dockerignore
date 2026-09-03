@@ -1,0 +1,6 @@
+.git
+.github
+*.log
+*.pyc
+__pycache__/
+runtime-manifest.txt
